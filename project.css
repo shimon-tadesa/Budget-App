@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#contener_And_Img{
+    background-image:url(https://cdn.pixabay.com/photo/2016/08/09/21/54/yellowstone-national-park-1581879_1280.jpg);
+    background-repeat: round;
+    height:350px;
+    
+   
+    
+}
+/*_________________________________________________________________  */
+
+#centerHeader{
+    text-align: center;
+    color: white;
+}
+/*_________________________________________________________________  */
+
+ #Header_And_Time{
+     margin-top: 0;
+ }
+ /*_________________________________________________________________  */
+
+#Balance_Money{
+    font-size: 30px;
+}
+/*_________________________________________________________________  */
+
+#Income_Money{
+    /* border: 2px solid red; */
+    width: 450px;
+    height:50px;
+    color: black;
+    background-color:rgb(20, 233, 212);
+    border-radius: 10px;
+    margin-right: 274px;
+  
+ }  
+
+
+ #head_income{
+    background-color:rgb(20, 233, 212);
+     width: 450px;
+    height:50px;
+    margin-left: 543px;
+ }
+ /*_________________________________________________________________  */
+
+ 
+
+#head_Expenses{
+    /* border: 2px solid black; */
+    width: 450px;
+    height:50px;
+    margin:0 auto;
+    color: black;
+    background-color:rgb(247, 12, 12);
+  
+}
+
+
+#Expenses_Money{
+    margin-right: 242px
+}
+ /* _________________________________________________________stylehead */
+
+#Contener_of_input{
+    /* border: 2px solid red; */
+    height:90px;
+    background-color: rgb(233, 229, 229);
+    text-align: center;
+    
+}
+/*_________________________________________________________________  */
+
+#ClickThis{
+    font-size:20px;
+    
+    
+}
+ /* ____________________________________________________________ */
+
+#item_title{
+    margin-top: 30px;
+    font-size:20px;
+    font-style: unset;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    
+}
+/*_________________________________________________________________  */
+
+ #item_value{
+
+     font-size:20px;
+     font-style: unset;
+     margin-top: 30px;
+     border-radius: 10px;
+     border: none;
+     outline: none;
+ } 
+/*_________________________________________________________________  */
+
+ #item_type{
+    font-size:20px;
+    border-radius: 10px;
+    border: none;
+    
+    
+ }
+
+/*_________________________________________________________________  */
+
+#container_head{
+    width: 100%;
+}
+
+#container_list {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width:40%;
+    
+}
+
+
+#container_list2{
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+/*_________________________________________________________________  */
+
+#list_of_income {
+    position: relative;
+    color: rgb(20, 233, 212);
+    font-size: 20px;
+    padding-left:30%;
+}
+   
+    
+    
+
+/*_________________________________________________________________  */
+
+#list_of_expenses{
+    position: relative;
+    left: 80px;
+    color: rgb(247, 12, 12);
+    font-size: 20px;
+   
+    
+    
+   
+}
+
+/*_________________________________________________________________  */
+
+li{
+    
+    border-bottom: rgb(160, 157, 161) 1.5px solid; 
+    list-style-type:none;
+    width: 500px;
+    
+}
+ li:nth-child(even){
+     background: whitesmoke;
+ }
+
+
+    
+    
+.greenIcone{
+    position: relative;
+    left: 18px;
+    opacity: 0;
+    transition: 1s;
+    overflow: hidden;
+    font-size: 15px;
+} 
+
+ li:hover .greenIcone{
+     color: black;
+     position: relative;
+     right: 10px;
+     opacity: 1;
+ }   
+    
+    
+    

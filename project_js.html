@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="project.css">
+    <title>My project</title>
+</head>
+
+<body>
+    <div id="contener_And_Img">
+
+        <div id="centerHeader">
+
+            <h1 id="Header_And_Time"> </h1>
+
+            <h3 id="Balance_Money">-0.00</h3>
+
+            <div id="head_income">
+                <span id="Income_Money">INCOME </span> <span id="total_income_value">0.0</span>
+            </div>
+
+            <div id="head_Expenses">
+              <span id="Expenses_Money" > EXPENSES </span> <span id="total_expenses_value">0.0</span> <span id="aaa">0%</span>
+            </div>
+
+        </div>
+    </div>
+    <!-- _________________________________________________________________________________d.img,d.haeder, -->
+    <div id="Contener_of_input">
+
+        <select name="" onclick="changecolor()" id="item_type">
+
+            <option value="+">+</option>
+            <option value="-">-</option>
+
+        </select>
+
+        <input id="item_title" type="text" placeholder="Add description">
+
+        <input id="item_value" type="number" min="0" placeholder="value">
+
+
+        <span id="ClickThis" onclick="addItem(event)" class="glyphicon glyphicon-ok-circle"></span></span>
+
+    </div>
+    <!-- ___________________________________________________________________________________________d.input,button -->
+    <div id="container_head">
+
+        <div id="container_list">
+
+            <ol id="list_of_income">INCOME</ol>
+
+        </div>
+
+        <div id="container_list2">
+
+            <ol id="list_of_expenses">EXPENSES</ol>
+
+        </div>
+
+    </div>
+    <!-- __________________________________________________________________d.list for income -->
+
+    <script src="project.js"></script>
+</body>
+
+
+</html>
